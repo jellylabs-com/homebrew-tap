@@ -10,13 +10,8 @@ class Mangiafuoco < Formula
   version "0.1.0"
   license "MIT"
 
-  if Hardware::CPU.arm?
-    url "https://github.com/jellylabs-ltd/conductor/releases/download/v#{version}/mangiafuoco-#{version}-arm64.tar.gz"
-    sha256 "PLACEHOLDER_ARM64_SHA256"
-  else
-    url "https://github.com/jellylabs-ltd/conductor/releases/download/v#{version}/mangiafuoco-#{version}-x86_64.tar.gz"
-    sha256 "PLACEHOLDER_X86_64_SHA256"
-  end
+  url "https://github.com/jellylabs-ltd/conductor/releases/download/v#{version}/mangiafuoco-#{version}-universal.tar.gz"
+  sha256 "40630df6462fc402e449e2b2fb9a61383820f6953cda84daafb5c9bd273bcae1"
 
   def install
     bin.install "mangiafuoco"
