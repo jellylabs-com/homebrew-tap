@@ -6,11 +6,11 @@
 
 class Mangiafuoco < Formula
   desc "Parallel development orchestration toolkit for Claude Code agents"
-  homepage "https://github.com/jellylabs-ltd/conductor"
+  homepage "https://github.com/jellylabs-ltd/mangiafuoco"
   version "0.1.0"
   license "MIT"
 
-  url "https://github.com/jellylabs-ltd/conductor/releases/download/v#{version}/mangiafuoco-#{version}-universal.tar.gz"
+  url "https://github.com/jellylabs-ltd/mangiafuoco/releases/download/v#{version}/mangiafuoco-#{version}-universal.tar.gz"
   sha256 "40630df6462fc402e449e2b2fb9a61383820f6953cda84daafb5c9bd273bcae1"
 
   def install
